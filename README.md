@@ -10,5 +10,5 @@ Add the following openocd option to direct trace output to /tmp/swo.log:
 
 For details see: http://openocd.org/doc/html/Architecture-and-Core-Commands.html search for "ARMv7-M specific commands" and look for "tpiu config"
 
-use less -r /tmp/swo.log to read the output.
+use `less -r /tmp/swo.log` or `tail -f /tmp/swo.log` to read the output.
 
