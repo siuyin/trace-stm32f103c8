@@ -30,4 +30,10 @@
 		<nature>org.eclipse.cdt.managedbuilder.core.managedBuildNature</nature>
 		<nature>org.eclipse.cdt.managedbuilder.core.ScannerConfigNature</nature>
 	</natures>
+	<variableList>
+		<variable>
+			<name>stm32cubeide_openocd_path</name>
+			<value>file:/home/siuyin/Downloads/openocd/xpack-openocd-0.10.0-14/bin</value>
+		</variable>
+	</variableList>
 </projectDescription>
