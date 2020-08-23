@@ -12,3 +12,8 @@ For details see: http://openocd.org/doc/html/Architecture-and-Core-Commands.html
 
 use `less -r /tmp/swo.log` or `tail -f /tmp/swo.log` to read the output.
 
+## printf is blocking
+On a 8 MHz clock, "Hello World %d\n" took 400 microseconds,
+with a 72 MHz clock, 92 us.
+
+To send a single char at 72 MHz took 2.5 us. Note the non-linearity.
